@@ -6,13 +6,9 @@ cd "$(dirname ${BASH_SOURCE[0]})"
 DIR="`pwd`"
 
 if [ "`command -v bundle`" == "" ]; then
-	echo "Installing bundle locally"
-	
-	if which ruby >/dev/null && which gem >/dev/null; then
-		export PATH="$(ruby -rubygems -e 'puts Gem.user_dir')/bin:$PATH"
-	fi
-	# install bundle locally
-	gem install --user-install bundler	
-fi	
+    echo 'Bundle not found, please install bundle using `gem install bundler`'
+    exit 1 
+fi    
 
-bundle install --path .rubydeps
+bundle config set path "${DIR}/.rubydeps"
+bundle install

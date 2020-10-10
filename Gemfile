@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-ruby '>=1.9.0'
-
-# Dependencies require to build the documentation
-gem 'jekyll', '3.0.5'
-
+group :jekyll_plugins do
+  gem "jekyll-paginate"
+  gem "jekyll-feed"
+  gem "jekyll", "3.0.5"
+end
