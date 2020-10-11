@@ -4,23 +4,27 @@ title:      "Scaffolding my first blog"
 subtitle:   "A Jekyll experiment"
 date:       2020-10-10 12:00:00
 author:     "WalterDDR"
-header-img: "img/post-bg-06.jpg"
+header-img: "img/2020-10-09-init/bg.jpg"
 ---
 
 <p>Test post line.</p>
 
-<h1 class="section-heading">Test Section Heading</h1>
+<h1>Test Section Heading</h1>
 
 <p>my post line.</p>
 
 <blockquote>my block quote</blockquote>
 
-<h2 class="section-heading">test Section Heading L2</h2>
+<h2>test Section Heading L2</h2>
+
+<p> HAHA
+
+<h3>test Section Heading L3</h3>
 
 <p>my post line again.</p>
 <a href="#">
-    <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/2020-10-09-init/insert1.jpg" alt="Insert Image">
 </a>
-<span class="caption text-muted">my span.</span>
+<span class="caption text-muted">span figure legend</span>
 
-<p>Placeholder text by <a href="http://walterddr.github.io/">Github.IO</a>. Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
+<p>Hyperlink text: <a href="http://walterddr.github.io/">Github.IO</a></p>
