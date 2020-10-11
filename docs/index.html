@@ -4,6 +4,7 @@ description: ""
 ---
 
 {% for post in paginator.posts %}
+{% if post.type == 'published' %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">            {{ post.title }}
@@ -17,6 +18,7 @@ description: ""
     <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
 <hr>
+{% endif %}
 {% endfor %}
 
 <!-- Pager -->
