@@ -1,30 +1,85 @@
 ---
 layout:     post
-title:      "Scaffolding my first blog"
-subtitle:   "A Jekyll experiment"
+title:      "Sample Jekyll Blog"
+subtitle:   "Example formatting codeblocks for copy/reuse"
 date:       2020-10-10 12:00:00
 author:     "WalterDDR"
-header-img: "img/2020-10-09-init/bg.jpg"
+header-img: "img/home-bg.jpg"
 ---
 
-<p>Test post line.</p>
 
-<h1>Test Section Heading</h1>
+### =========================
+HTML: <code><p>Regular post line</p></code>
 
-<p>my post line.</p>
+<p>Regular post line</p>
 
-<blockquote>my block quote</blockquote>
+MD: <code>Regular post line</code>
 
-<h2>test Section Heading L2</h2>
+Regular post line
 
-<p> HAHA
+### =========================
+HTML: <code><h1 class="section-heading">Section Heading</h1></code>
 
-<h3>test Section Heading L3</h3>
+<h1 class="section-heading">Section Heading</h1>
 
-<p>my post line again.</p>
+MD: no equivalent
+
+### =========================
+HTML: <code><h2>Heading Level 2</h2></code>
+
+<h2>Heading Level 2</h2>
+
+MD: <code>## Heading Level 2</code>
+
+## Heading Level 2
+
+### =========================
+HTML: <code><blockquote>block quote</blockquote></code>
+
+<blockquote>block quote</blockquote>
+
+MD: <code> > block quote</code>
+
+>block quote
+
+### =========================
+HTML: 
+```
+<a href="#"><img src=".../pic.jpg", alt="Insert Image"></a>
+```
+
 <a href="#">
-    <img src="{{ site.baseurl }}/img/2020-10-09-init/insert1.jpg" alt="Insert Image">
+    <img src="{{ site.baseurl }}/img/about-bg.jpg" alt="Insert Image">
 </a>
+
+MD: 
+```
+![Insert Image](.../pic.jpg)
+```
+![Insert Image]({{ site.baseurl }}/img/about-bg.jpg)
+
+### =========================
+HTML:
+```
+<span class="caption text-muted">span text</span>
+```
+
 <span class="caption text-muted">span figure legend</span>
 
-<p>Hyperlink text: <a href="http://walterddr.github.io/">Github.IO</a></p>
+MD: no equivalent
+
+
+### =========================
+HTML:
+```
+<a href="http://walterddr.github.io/">Github.IO</a>
+```
+
+<a href="http://walterddr.github.io/">Github.IO</a>
+
+MD:
+```
+[Github.IO](http://walterddr.github.io/)
+```
+
+[Github.IO](http://walterddr.github.io/)

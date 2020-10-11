@@ -1,7 +1,7 @@
 # Site settings
 title: WalterDDR
 header-img: img/home-bg.jpg
-email: rongr@apache.org
+email: walterddr.walterddr@gmail.com
 copyright_name: walterddr 
 description: "WalterDDR"
 baseurl: ""
@@ -9,7 +9,6 @@ url: "http://walterddr.github.io"
 twitter_username: walterddr
 github_username: walterddr 
 facebook_username:  
-email_username: rongr@apache.org
 
 # Build settings
 markdown: kramdown
