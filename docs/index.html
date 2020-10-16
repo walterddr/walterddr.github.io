@@ -4,7 +4,7 @@ description: ""
 ---
 
 {% for post in paginator.posts %}
-{% if post.type == 'published' %}
+{% if post.type != 'draft' %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">            {{ post.title }}

@@ -5,6 +5,7 @@ subtitle:   "Example formatting codeblocks for copy/reuse"
 date:       2020-10-10 12:00:00
 author:     "WalterDDR"
 header-img: "img/home-bg.jpg"
+type:       "draft"
 ---
 
 
