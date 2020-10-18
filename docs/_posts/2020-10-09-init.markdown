@@ -1,12 +1,12 @@
 ---
 layout:     post
 title:      "Sample Jekyll Blog"
-subtitle:   "Example formatting codeblocks for copy/reuse"
+subtitle:   "List out some comment markdown for copy/reuse"
 date:       2020-10-09 12:00:00
 author:     "WalterDDR"
 banner:     "img/home-bg.jpg"
-categories: "jekyll"
-tags:       "jekyll"
+categories: "sample"
+tags:       "markdown"
 ---
 
 
