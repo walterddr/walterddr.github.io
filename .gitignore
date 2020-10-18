@@ -1,7 +1,1 @@
-Gemfile.lock
 .DS_Store
-.bundle
-.rubydeps
-
-_site
-.sass-cache
