@@ -1,0 +1,12 @@
+_site
+.sass-cache
+.jekyll-metadata
+
+Gemfile.lock
+*content
+*content/build.sh
+*content/Gemfile
+*content/Gemfile.lock
+*_site
+*.bundle
+*.rubydeps

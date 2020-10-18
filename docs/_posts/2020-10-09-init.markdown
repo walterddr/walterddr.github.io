@@ -2,85 +2,53 @@
 layout:     post
 title:      "Sample Jekyll Blog"
 subtitle:   "Example formatting codeblocks for copy/reuse"
-date:       2020-10-10 12:00:00
+date:       2020-10-09 12:00:00
 author:     "WalterDDR"
-header-img: "img/home-bg.jpg"
-type:       "draft"
+banner:     "img/home-bg.jpg"
+categories: "jekyll"
+tags:       "jekyll"
 ---
 
 
-### =========================
-HTML: <code><p>Regular post line</p></code>
-
-<p>Regular post line</p>
+## Example regular post line
 
 MD: <code>Regular post line</code>
 
 Regular post line
 
-### =========================
-HTML: <code><h1 class="section-heading">Section Heading</h1></code>
 
-<h1 class="section-heading">Section Heading</h1>
 
-MD: no equivalent
+## Example section heading (level 3)
 
-### =========================
-HTML: <code><h2>Heading Level 2</h2></code>
+### Heading Level 3
 
-<h2>Heading Level 2</h2>
+MD: <code>### Heading Level 3</code>
 
-MD: <code>## Heading Level 2</code>
 
-## Heading Level 2
-
-### =========================
-HTML: <code><blockquote>block quote</blockquote></code>
-
-<blockquote>block quote</blockquote>
-
-MD: <code> > block quote</code>
+## Example block quote
 
 >block quote
 
-### =========================
-HTML: 
-```
-<a href="#"><img src=".../pic.jpg", alt="Insert Image"></a>
-```
+MD: <code> > block quote</code>
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/about-bg.jpg" alt="Insert Image">
-</a>
+
+
+## Example image
+
+![Insert Image]({{site.baseurl}}/img/about-bg.jpg)
 
 MD: 
-```
+<code>
 ![Insert Image](.../pic.jpg)
-```
-![Insert Image]({{ site.baseurl }}/img/about-bg.jpg)
-
-### =========================
-HTML:
-```
-<span class="caption text-muted">span text</span>
-```
-
-<span class="caption text-muted">span figure legend</span>
-
-MD: no equivalent
+</code>
 
 
-### =========================
-HTML:
-```
-<a href="http://walterddr.github.io/">Github.IO</a>
-```
 
-<a href="http://walterddr.github.io/">Github.IO</a>
+## Example Hyper link
+[Github.IO](http://walterddr.github.io/)
 
 MD:
-```
+<code>
 [Github.IO](http://walterddr.github.io/)
-```
+</code>
 
-[Github.IO](http://walterddr.github.io/)
