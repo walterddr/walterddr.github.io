@@ -128,6 +128,7 @@ another github page.
 [github_publish_source]: https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 [github_jekyll_theme]: https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/adding-a-theme-to-your-github-pages-site-using-jekyll
 [github_build_script]: https://github.com/walterddr/walterddr.github.io/blob/master/build.sh
+[github_pytorch_ci_hud]: https://https://walterddr.github.io/pytorch-ci-hud/
 [jekyll_quickstart]: https://jekyllrb.com/docs/
 [jekyll_theme]: https://jekyllrb.com/docs/themes/
 [jekyll_theme_minima]: https://github.com/jekyll/minima
